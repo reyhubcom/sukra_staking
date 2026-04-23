@@ -45,16 +45,10 @@ const metadata = {
       { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/arthelokyo/astrowind' },
       { text: 'Learn more', href: '#features' },
     ]}
-
-     <script src="https://cdn.lordicon.com/lordicon.js"></script>
-<lord-icon
-    src="https://cdn.lordicon.com/gfpplxaf.json"
-    trigger="hover"
-    colors="primary:#ffffff,secondary:#a1ccfa,tertiary:#c69cf4,quaternary:#ffffff,quinary:#3583ff"
-    style="width:400px;height:400px">
-</lord-icon>,
+    image={{
+      src: 'https://images.unsplash.com/photo-1580481072645-022f9a6dbf27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       alt: 'AstroWind Hero Image',
- 
+    }}
   >
     <Fragment slot="title">
       Simplify web design with Astrowind: <br /> your ultimate <span class="text-accent dark:text-white">SaaS</span> companion<br
