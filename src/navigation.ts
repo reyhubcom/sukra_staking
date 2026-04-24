@@ -6,19 +6,19 @@ export const headerData = {
       text: 'Homes',
       links: [
         {
-          text: 'SaaS',
+          text: 'Bitcoin Staking',
           href: getPermalink('/homes/saas'),
         },
         {
-          text: 'Startup',
+          text: 'Stake { ETH }',
           href: getPermalink('/homes/startup'),
         },
         {
-          text: 'Mobile App',
+          text: 'Stake { SOL }',
           href: getPermalink('/homes/mobile-app'),
         },
         {
-          text: 'Personal',
+          text: 'Stake { MON }',
           href: getPermalink('/homes/personal'),
         },
       ],
@@ -174,9 +174,9 @@ export const footerData = {
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/arthelokyo"> Arthelokyo</a> · All rights reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="#"> Rey</a> · 2026 Sukra.xyz All Rights Reserved.
   `,
 };
