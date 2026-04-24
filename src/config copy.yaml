@@ -1,6 +1,6 @@
 site:
-  name: Sukra.xyz
-  site: 'https://sukra.xyz'
+  name: AstroWind
+  site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Sukra.xyz
-    template: 'Sukra.xyz'
-  description: "Crypto staking is the process of locking up cryptocurrencies to support a proof-of-stake (PoS) blockchain network, validating transactions in exchange for rewards. It enables passive income generation, often yielding high returns, but carries risks including price volatility, mandatory lockup periods, and potential slashing loss of staked assets."
+    default: AstroWind
+    template: '%s — AstroWind'
+  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Sukra.xyz
+    site_name: AstroWind
     images:
       - url: '~/assets/images/default.png'
         width: 1200
