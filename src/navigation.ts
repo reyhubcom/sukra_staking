@@ -19,7 +19,7 @@ export const headerData = {
         },
         {
           text: 'Stake { MON }',
-          href: getPermalink('/homes/monad'),
+          href: getPermalink('/home/monad'),
         },
       ],
     },
